@@ -1,0 +1,167 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  color: var(--primary-text-color);
+}
+:root {
+  --secondary-text-color: #212121;
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+  --hero-and-footer-background-color: #2f303a;
+  --main-background-color: #e5e5e5;
+  --team-background-color: #f5f4fa;
+}
+/* стили хедера */
+header {
+  background-color: var(--background-color);
+}
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+.logo-header {
+  color: #000000;
+}
+.logo-footer {
+  color: var(--background-color);
+}
+.navigation-list {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.navigation-list .navigation-link {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+.navigation-list .navigation-link:hover,
+.navigation-list .navigation-link:focus {
+  color: var(--accent-color);
+}
+.navigation-link-current {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+.contacts-header,
+.contacts-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.contacts-header .contacts-link:hover,
+.contacts-header .contacts-link:focus {
+  color: var(--accent-color);
+}
+/* стили hero */
+.hero {
+  background-color: var(--hero-and-footer-background-color);
+  color: var(--background-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+/* cтили для advantages и occupations */
+.advantages,
+.occupations {
+  background-color: var(--background-color);
+}
+.advantages {
+  line-height: 1.71;
+}
+.advantages-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+.occupations-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+/* стили для team section */
+.team {
+  background-color: var(--team-background-color);
+}
+.team-member {
+  font-weight: 500;
+  color: var(--secondary-text-color);
+}
+.team,
+.team-member {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/* стили для футера */
+footer {
+  background-color: var(--hero-and-footer-background-color);
+}
+.location {
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--background-color);
+}
+.contacts-footer,
+.contacts-footer-link {
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.contacts-footer .contacts-footer-link:hover,
+.contacts-footer .contacts-footer-link:focus {
+  color: var(--accent-color);
+}
+/* cтили для portfolio */
+.jobs-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+.jobs .jobs-button:hover,
+.jobs .jobs-button:focus {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+.jobs-list {
+  font-size: 16px;
+  line-height: 1.88;
+}
+.jobs-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
